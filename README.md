@@ -43,13 +43,13 @@ Accurate estimation of taxes and fees is essential for automotive dealerships an
 ### Fees
 - **Average Difference**: DMV fees were higher than Carlton’s estimates by an average of **$210.10**.
 - **Maximum Difference**: The largest discrepancy was **$847.75**, where DMV fees significantly exceeded Carlton’s estimates.
-- **Minimum Difference**: The smallest difference observed was **- $5**, where Carlton's estimate was slightly higher than the DMV fee.
+- **Minimum Difference**: The smallest difference observed was **$5**, where Carlton's estimate was slightly higher than the DMV fee.
 - **Maximum Fees**:
   - Carlton: **$644**.
   - DMV: **$1092**.
 
 ### Taxes
-- **Average Difference**: Carlton taxes exceeded DMV taxes by an average of **- $100.61**.
+- **Average Difference**: Carlton taxes exceeded DMV taxes by an average of **$100.61**.
 - **Maximum Difference**: Carlton’s tax values were higher than DMV taxes by **$1724.63** at most.
 - **Minimum Difference**: A difference of **$0** was observed in 4 cases.
 - **Maximum Taxes**:
@@ -63,10 +63,12 @@ Accurate estimation of taxes and fees is essential for automotive dealerships an
 ### Box Plot Observation:
 - Differences in tax values were tightly packed for most cases but showed several outliers with large discrepancies.
 - Carlton’s percentage-based tax calculation, which relies on the vehicle price, may have contributed to these outliers if a different price was used.
+![Visualization Boxplot](assets/images/tax_boxplot.png)
 
 ### Histogram Observation:
 - Most differences clustered into two specific ranges (~80% of the data fell into these bins).
 - **Extreme outliers** were observed, potentially due to Carlton using a different vehicle price for tax estimation compared to the DMV documents.
+![Visualization Histplot](assets/images/tax_hist.png)
 
 ---
 
