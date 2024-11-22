@@ -19,7 +19,7 @@ Accurate estimation of taxes and fees is essential for automotive dealerships an
 
 ### Data Collection
 - **Carlton Data**: Extracted estimated tax and fee values for each application from the RawXML field in Carlton’s dataset.
-- **DMV Data**: Retrieved lien receipts or RICs from the DMV using the Nautilus API and processed these scanned documents with OCR to extract itemized tax and fee details.
+- **DMV Data**: Retrieved lien receipts or RICs from the DMV using the Nautilus API and processed these scanned documents with OCR. Regular expressions were then applied to extract itemized tax and fee details from the OCR-generated text.
 - **Document Validation**: Filtered out improperly classified documents to ensure only valid tax receipts were included in the analysis.
 
 ### Data Analysis
