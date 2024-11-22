@@ -9,8 +9,8 @@ This project analyzed the accuracy of Carlton’s tax and fee estimations by com
 Accurate estimation of taxes and fees is essential for automotive dealerships and applicants when processing financial transactions. Carlton provides tax and fee estimation services, but their reliability needed to be assessed by comparing them against DMV-reported data for a set of deals.
 
 ### Key Steps:
-- **Tax and fee estimations** were retrieved from Carlton's RawXML field.
-- **DMV tax and fee data** were extracted using OCR from document scans (e.g., lien receipts,RIC).
+- Tax and fee estimations were retrieved from Carlton's RawXML field.
+- DMV tax and fee data were extracted using OCR from document scans (e.g., lien receipts,RIC).
 - Both datasets were compared to identify discrepancies and assess the overall accuracy of Carlton’s estimates.
 
 ---
@@ -61,7 +61,7 @@ Accurate estimation of taxes and fees is essential for automotive dealerships an
 ## Visualizations
 
 ### Box Plot Observation:
-- Differences in tax values were tightly packed for most cases but showed several **outliers** with large discrepancies.
+- Differences in tax values were tightly packed for most cases but showed several outliers with large discrepancies.
 - Carlton’s percentage-based tax calculation, which relies on the vehicle price, may have contributed to these outliers if a different price was used.
 
 ### Histogram Observation:
@@ -83,7 +83,11 @@ Accurate estimation of taxes and fees is essential for automotive dealerships an
 - Carlton taxes were, on average, higher than DMV-reported taxes, primarily driven by the reliance on percentage-based calculations and mismatches in the input vehicle price.
 
 ---
+## [Explore the Complete Code in Jupyter Notebook](https://github.com/srdjan-injac/carlton_tax_accuracy/blob/main/Carlton_Tax.ipynb)
 
 ## Key Technologies
 - **Languages**: Python, SQL
 - **Libraries**: `pandas`, `requests`, `requests`, `BeautifulSoup`, `re`, `matplotlib`, `seaborn`
+
+---
+[Back to My Portfolio](https://srdjan-injac.github.io/my_portfolio/)
