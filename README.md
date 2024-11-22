@@ -63,12 +63,14 @@ Accurate estimation of taxes and fees is essential for automotive dealerships an
 ### Box Plot Observation:
 - Differences in tax values were tightly packed for most cases but showed several outliers with large discrepancies.
 - Carlton’s percentage-based tax calculation, which relies on the vehicle price, may have contributed to these outliers if a different price was used.
-![Visualization Boxplot](assets/images/tax_boxplot.png)
+  
+![Visualization Boxplot](assets/images/box_plot_carlton_taxes.png)
 
 ### Histogram Observation:
 - Most differences clustered into two specific ranges (~80% of the data fell into these bins).
 - **Extreme outliers** were observed, potentially due to Carlton using a different vehicle price for tax estimation compared to the DMV documents.
-![Visualization Histplot](assets/images/tax_hist.png)
+  
+![Visualization Histplot](assets/images/hist_carlton_taxes.png)
 
 ---
 
